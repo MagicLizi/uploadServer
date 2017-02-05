@@ -12,7 +12,7 @@ exports.dataInput = function (req, res) {
         }
         //文件信息在req.file或者req.files中显示。
         var filename = req.file['filename'];
-        var fileUrl = `http://127.0.0.1:3000/uploads/${filename}`;
+        var fileUrl = `http://139.196.210.143:7777/uploads/${filename}`;
         console.log(`上传文件信息：`);
         console.log(req.file)
         console.log(`文件url:${fileUrl}`);

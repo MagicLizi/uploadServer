@@ -21,7 +21,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors({
     allowedOrigins: [
-        'http://localhost:8000'
+        'http://localhost:8000','http://uploadtest.magiclizi.com'
     ]
 }))
 
